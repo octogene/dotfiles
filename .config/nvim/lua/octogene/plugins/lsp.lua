@@ -12,7 +12,7 @@ return  {
 		mason.setup()
 
 		mason_lspconfig.setup {
-			 ensure_installed = { "rust_analyzer", "zls", "solc" },
+			 ensure_installed = { "lua_ls", "rust_analyzer", "zls", "solc" },
 		}
 
 		lspconfig.rust_analyzer.setup {}
